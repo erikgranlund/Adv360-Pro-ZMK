@@ -4,9 +4,9 @@ label = "macro_grave";
 #binding-cells = <0>;
 bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>;
 };
-macro_macro_date: macro_macro_date{
+macro_date: macro_date{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_date";
+label = "macro_date";
 #binding-cells = <0>;
 bindings = <&kp NUMBER_2>, <&kp NUMBER_0>, <&kp NUMBER_2>, <&kp NUMBER_4>, <&kp NUMBER_0>, <&kp NUMBER_4>, <&kp NUMBER_0>, <&kp NUMBER_0>, <&kp MINUS>;
 };
