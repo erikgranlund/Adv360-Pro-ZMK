@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-  &kp EQUAL     &kp N1      &kp N2    &kp N3     &kp N4  &kp N5                    &tog 1                                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-    &kp ESC      &kp Q       &kp W     &kp E      &kp R   &kp T            &macro_dquotes                                                                    &macro_date   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
- &kp DELETE      &kp A       &kp S     &kp D      &kp F   &kp G            &kp C_AC_PASTE  &kp LWIN  &kp LEFT_CONTROL                   &kp LGUI   &kp RALT      &kp C_AC_COPY   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
-  &kp LSHFT      &kp Z       &kp X     &kp C      &kp V   &kp B                                           &kp PAGE_UP                  &kp PG_UP                                 &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-      &mo 2  &kp GRAVE  &kp INSERT  &kp LEFT  &kp RIGHT                          &kp BSPC   &kp TAB     &kp PAGE_DOWN                  &kp PG_DN  &kp ENTER          &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+  &kp EQUAL     &kp N1      &kp N2    &kp N3     &kp N4  &kp N5                    &tog 1                                                                            &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+    &kp ESC      &kp Q       &kp W     &kp E      &kp R   &kp T            &macro_dquotes                                                                      &macro_date   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+ &kp DELETE      &kp A       &kp S     &kp D      &kp F   &kp G            &kp C_AC_PASTE  &kp LWIN  &kp LEFT_CONTROL                   &kp LGUI   &kp RALT  &kp C_AC_COPY   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+  &kp LSHFT      &kp Z       &kp X     &kp C      &kp V   &kp B                                           &kp PAGE_UP                  &kp PG_UP                             &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+      &mo 2  &kp GRAVE  &kp INSERT  &kp LEFT  &kp RIGHT                          &kp BSPC   &kp TAB     &kp PAGE_DOWN                  &kp PG_DN  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3        &kp F4          &kp F5  &kp F6                   &tog 1                                                                                 &mo 3  &kp F7          &kp F8           &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans        &trans          &trans  &trans            &macro_quotes                                                                       &kp C_VOLUME_UP  &trans          &trans           &trans   &trans   &trans   &trans
- &trans  &trans  &trans        &trans          &trans  &trans             &macro_grave  &trans  &kp LEFT_ALT                    &trans  &kp RIGHT_CONTROL  &kp C_VOLUME_DOWN  &trans          &trans           &trans   &trans   &trans   &trans
- &trans  &trans  &trans        &trans          &trans  &trans                                       &kp HOME                  &kp HOME                                        &trans          &trans           &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &kp UP_ARROW  &kp DOWN_ARROW                           &trans  &trans       &kp END                   &kp END       &kp KP_ENTER             &trans          &kp LEFT_ARROW  &kp RIGHT_ARROW   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3                                      &kp F4                                  &kp F5  &kp F6                   &tog 1                                                                                 &mo 3  &kp F7                                  &kp F8                                      &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS_GROUP  &kp C_KEYBOARD_INPUT_ASSIST_NEXT_GROUP  &trans            &macro_quotes                                                                       &kp C_VOLUME_UP  &trans  &kp C_KEYBOARD_INPUT_ASSIST_NEXT_GROUP  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS_GROUP   &trans   &trans   &trans
+ &trans  &trans  &trans        &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS                         &kp C_KBIA_NEXT  &trans             &macro_grave  &trans  &kp LEFT_ALT                    &trans  &kp RIGHT_CONTROL  &kp C_VOLUME_DOWN  &trans                         &kp C_KBIA_NEXT                             &kp C_KBIA_PREV   &trans   &trans   &trans
+ &trans  &trans  &trans                           &kp C_KBIA_CANCEL      &kp C_KEYBOARD_INPUT_ASSIST_ACCEPT  &trans                                       &kp HOME                  &kp HOME                                        &trans      &kp C_KEYBOARD_INPUT_ASSIST_ACCEPT          &kp C_KEYBOARD_INPUT_ASSIST_CANCEL   &trans   &trans   &trans
+ &trans  &trans  &trans                                &kp UP_ARROW                          &kp DOWN_ARROW                           &trans  &trans       &kp END                   &kp END       &kp KP_ENTER             &trans                                  &kp LEFT_ARROW                             &kp RIGHT_ARROW   &trans   &trans   &trans
             >;
         };
 
