@@ -10,8 +10,6 @@
 
 / {
   behaviors {
-    #include "version.dtsi"
-
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
@@ -70,6 +68,19 @@
     };
 };
 
+
+/ {
+    version {
+        #define VERSION_MACRO
+        macro_ver: macro_ver {
+        compatible = "zmk,behavior-macro";
+        label = "macro_ver";
+        #binding-cells = <0>;
+        bindings = <&kp N2>, <&kp N0>, <&kp N2>, <&kp N4>, <&kp N0>, <&kp N4>, <&kp N1>, <&kp N6>, <&kp MINUS>, <&kp V>, <&kp N3>, <&kp DOT>, <&kp N0>, <&kp MINUS>, <&kp N3>, <&kp F>, <&kp N4>, <&kp C>, <&kp N3>, <&kp F>, <&kp N2>, <&kp RET>;
+        };
+
+      };
+  };
 
 / {
     macros {
