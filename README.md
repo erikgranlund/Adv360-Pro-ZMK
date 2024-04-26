@@ -1,4 +1,4 @@
-My fork of Kinesis's Advantage 360-specific ZMK fork.
+My fork of Kinesis's 'Advantage 360 Pro' ZMK fork.
 
 Sharing with the world in case some of my macros / shortcuts help anyone.
 
