@@ -159,7 +159,7 @@
         macro_lock: macro_lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_CONTROL &kp Q>;
+            bindings = <&kt LEFT_COMMAND &kt LEFT_CONTROL &kp Q &kt LEFT_COMMAND &kt LEFT_CONTROL>;
             label = "MACRO_LOCK";
         };
     };
