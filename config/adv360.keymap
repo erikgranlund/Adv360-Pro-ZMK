@@ -119,7 +119,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_date";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4 &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_0 &kp NUMBER_0 &kp MINUS>;
+            bindings = <&kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4 &kp NUMBER_0 &kp NUMBER_0 &kp NUMBER_0 &kp NUMBER_0 &kp MINUS>;
         };
 
         macro_quotes: macro_quotes {
