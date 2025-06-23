@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -28,11 +27,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL   &kp N1     &kp N2      &kp N3    &kp N4     &kp N5  &mo 1                                                                                    &mo 3        &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp ESC     &kp Q      &kp W       &kp E     &kp R      &kp T   &macro_dquotes                                                                           &macro_date  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp DELETE  &kp A      &kp S       &kp D     &kp F      &kp G   &macro_paste              &kp LWIN  &kp LEFT_CONTROL    &kp LGUI   &kp RALT              &macro_copy  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z      &kp X       &kp C     &kp V      &kp B                                       &kp PAGE_UP         &kp PG_UP                                     &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2       &kp GRAVE  &kp INSERT  &kp LEFT  &kp RIGHT                          &kp BSPC  &kp TAB   &kp PAGE_DOWN       &kp PG_DN  &kp ENTER  &kp SPACE                       &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL   &kp N1     &kp N2      &kp N3    &kp N4     &kp N5  &tog 1                                                                                   &mo 3              &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp ESC     &kp Q      &kp W       &kp E     &kp R      &kp T   &macro_dquotes                                                                           &macro_date        &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp DELETE  &kp A      &kp S       &kp D     &kp F      &kp G   &kp LEFT_ALT              &kp LWIN  &kp LEFT_CONTROL    &kp LGUI   &kp RALT              &kp RIGHT_CONTROL  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z      &kp X       &kp C     &kp V      &kp B                                       &kp PAGE_UP         &kp PG_UP                                           &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2       &kp GRAVE  &kp INSERT  &kp LEFT  &kp RIGHT                          &kp BSPC  &kp TAB   &kp PAGE_DOWN       &kp PG_DN  &kp ENTER  &kp SPACE                             &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -48,11 +47,11 @@
 
         layer_fn {
             bindings = <
-&kp F1       &kp F2       &kp F3          &kp F4          &kp F5           &kp F6  &tog 1                                                                                                  &mo 3              &kp F7  &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
-&macro_lock  &macro_lock  &trans          &kp UP_ARROW    &none            &trans  &macro_quotes                                                                                           &kp C_VOLUME_UP    &none   &none           &kp UP_ARROW    &trans           &trans   &macro_lock
-&kp C_POWER  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &macro_grave           &kp K_APPLICATION  &kp LEFT_ALT    &kp RIGHT_COMMAND  &kp RIGHT_CONTROL          &kp C_VOLUME_DOWN  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &kp C_POWER
-&trans       &none        &none           &none           &none            &none                                             &kp HOME        &kp HOME                                                         &none   &none           &none           &none            &none    &trans
-&trans       &trans       &trans          &trans          &trans                                  &trans  &trans             &kp END         &kp END            &kp KP_ENTER       &trans                             &trans          &trans          &trans           &trans   &trans
+&kp F1       &kp F2       &kp F3          &kp F4          &kp F5           &kp F6  &tog 1                                                                                                   &mo 3              &kp F7  &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
+&macro_lock  &macro_lock  &trans          &kp UP_ARROW    &none            &trans  &macro_quotes                                                                                            &kp C_VOLUME_UP    &none   &none           &kp UP_ARROW    &trans           &trans   &macro_lock
+&kp C_POWER  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &macro_grave           &kp K_APPLICATION  &kp LEFT_ALT    &kp K_CONTEXT_MENU  &kp RIGHT_CONTROL          &kp C_VOLUME_DOWN  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &kp C_POWER
+&trans       &none        &none           &none           &none            &none                                             &kp HOME        &kp HOME                                                          &none   &none           &none           &none            &none    &trans
+&trans       &trans       &trans          &trans          &trans                                  &trans  &trans             &kp END         &kp END             &kp KP_ENTER       &trans                             &trans          &trans          &trans           &trans   &trans
             >;
         };
 
@@ -166,3 +165,4 @@
         };
     };
 };
+
