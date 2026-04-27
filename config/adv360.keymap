@@ -55,11 +55,11 @@
         layer_fn {
             display-name = "Fn";
             bindings = <
-&kp F1       &kp F2       &kp F3          &kp F4          &kp F5           &kp F6  &trans                                                                     &trans             &kp F7  &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
-&macro_lock  &macro_lock  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &macro_quotes                                                              &kp C_VOLUME_UP    &none   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans   &macro_lock
-&kp C_POWER  &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &macro_grave           &trans  &trans      &trans    &trans                &kp C_VOLUME_DOWN  &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp C_POWER
-&trans       &none        &none           &none           &none            &none                                  &kp HOME    &kp HOME                                           &none   &none           &none           &none            &none    &trans
-&trans       &trans       &trans          &trans          &trans                                  &trans  &trans  &kp END     &kp END   &kp KP_ENTER  &trans                             &trans          &trans          &trans           &trans   &trans
+&kp F1       &kp F2       &kp F3          &kp F4          &kp F5           &kp F6  &trans                                                                      &trans          &kp F7  &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
+&macro_lock  &macro_lock  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &msc SCRL_UP                                                                &msc SCRL_UP    &none   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans   &macro_lock
+&kp C_POWER  &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN          &trans  &trans      &trans    &trans                &msc SCRL_DOWN  &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans   &kp C_POWER
+&trans       &none        &none           &none           &none            &none                                   &kp HOME    &kp HOME                                        &none   &none           &none           &none            &none    &trans
+&trans       &trans       &trans          &trans          &trans                                   &trans  &trans  &kp END     &kp END   &kp KP_ENTER  &trans                          &trans          &trans          &trans           &trans   &trans
             >;
         };
 
@@ -146,3 +146,4 @@
         };
     };
 };
+
