@@ -49,22 +49,22 @@
         layer_keypad {
             display-name = "Kp";
             bindings = <
-&trans  &trans             &trans           &trans      &trans  &trans  &trans                                                                  &trans  &kp K_CALCULATOR  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
-&trans  &trans             &trans           &trans      &trans  &trans  &bootloader                                                             &trans  &trans            &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
-&trans  &kp C_PREVIOUS     &kp C_PAUSE      &kp C_NEXT  &trans  &trans  &trans               &trans  &trans    &trans  &trans                   &trans  &trans            &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans      &trans  &trans                               &trans    &trans                                   &trans            &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
-&trans  &trans             &trans           &trans      &trans                       &trans  &trans  &trans    &trans  &kp KP_ENTER  &kp KP_N0                            &trans      &trans        &kp KP_DOT     &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                  &trans  &kp K_CALCULATOR  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &bootloader                                                             &trans  &trans            &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans    &trans  &trans                   &trans  &trans            &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                               &trans    &trans                                   &trans            &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans    &trans  &kp KP_ENTER  &kp KP_N0                            &trans      &trans        &kp KP_DOT     &trans           &trans
             >;
         };
 
         layer_fn {
             display-name = "Fn";
             bindings = <
-&kp F1       &kp F2          &kp F3          &kp F4          &kp F5           &kp F6          &trans                                                                      &trans          &kp F7          &kp F8          &kp F9          &kp F10          &kp F11          &kp F12
-&macro_lock  &macro_lock     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans          &msc SCRL_UP                                                                &msc SCRL_UP    &none           &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans           &macro_lock
-&kp C_POWER  &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &msc SCRL_DOWN          &trans  &trans      &trans    &trans                &msc SCRL_DOWN  &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &kp C_POWER
-&trans       &kp LG(RS(F1))  &kp LG(LS(F2))  &kp LG(LS(F3))  &kp LG(LS(F4))   &kp LG(LS(F5))                                  &kp HOME    &kp HOME                                        &kp LG(LS(F6))  &kp LS(LG(F7))  &kp LS(LG(F8))  &kp LG(LS(F9))   &kp LG(LS(F10))  &trans
-&trans       &trans          &trans          &trans          &trans                                           &trans  &trans  &kp END     &kp END   &kp KP_ENTER  &trans                                  &trans          &trans          &trans           &trans           &trans
+&kp F1                &kp F2          &kp F3          &kp F4          &kp F5          &kp F6  &trans                                                                      &trans          &kp F7  &kp F8          &kp F9          &kp F10            &kp F11          &kp F12
+&macro_lock           &trans          &trans          &trans          &trans          &trans  &msc SCRL_UP                                                                &msc SCRL_UP    &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK          &msc SCRL_UP     &macro_lock
+&kp LC(LS(F1))        &kp LS(LC(F2))  &kp LC(LS(F3))  &kp LC(LS(F4))  &kp LC(LS(F5))  &trans  &msc SCRL_DOWN          &trans  &trans      &trans    &trans                &msc SCRL_DOWN  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &msc SCRL_DOWN   &trans
+&kp LG(LS(NUMBER_4))  &kp LG(RS(F2))  &kp LG(LS(F3))  &kp LG(LS(F4))  &kp LG(LS(F5))  &trans                                  &kp HOME    &kp HOME                                        &trans  &trans          &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_NEXT       &trans
+&trans                &trans          &trans          &trans          &trans                                  &trans  &trans  &kp END     &kp END   &kp KP_ENTER  &trans                          &trans          &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
             >;
         };
 
